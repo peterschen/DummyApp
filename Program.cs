@@ -1,7 +1,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace DAIVAN
+namespace DummyApp
 {
     public class Program
     {

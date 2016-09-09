@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "preserveCompilationContext": true,
+    "debugType": "portable",
+    "emitEntryPoint": true,
+    "copyToOutput": { 
+      "includeFiles": [ 
+        "appsettings.json"
+      ] 
+    }
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        },
+        "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
+        "Microsoft.ApplicationInsights.AspNetCore": "1.0.0",
+        "Microsoft.Extensions.Configuration.Abstractions": "1.0.0",
+        "Microsoft.Extensions.Configuration.Json":  "1.0.0",
+        "Microsoft.AspNetCore.Mvc": "1.0.0",
+        "Microsoft.AspNetCore.StaticFiles": "1.0.0"
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}

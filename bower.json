@@ -1,0 +1,21 @@
+{
+  "name": "DAIVAN",
+  "description": "Sample Application for demonstrating Application Insights instrumentation",
+  "main": "",
+  "authors": [
+    "Christoph Petersen <christoph.petersen@microsoft.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
